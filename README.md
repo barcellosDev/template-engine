@@ -1,0 +1,1 @@
+<h1>A EJS based template engine</h1>
