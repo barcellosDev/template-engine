@@ -1,0 +1,5 @@
+<nav>
+    Logado: <span><%= name %></span>
+    <a href>Admin</a>
+    <a href>Funcionarios</a>
+</nav>

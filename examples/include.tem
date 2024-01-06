@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<% include(header) %>
+
+<body>
+
+    <% if (admin) { %>
+        <% include(nav) %>
+    <% } else { %>
+        <%= 'NAO TEM NAV' %>
+    <% } %>
+
+    <% include(footer) %>
+</body>
+</html>

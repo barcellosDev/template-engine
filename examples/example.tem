@@ -1,0 +1,18 @@
+<div>
+    <%= name %>
+
+    <% if (age) { %>
+        <strong> <%= age %> </strong>
+    <% } %>
+
+    <% years.forEach(year => { %>
+        <div><i> <%= year %> </li></div>
+    <% }) %>
+
+    <ul>
+        <strong>Tias</strong>
+        <% family.mom.sisters.forEach(sister => { %>
+            <li><%= sister %></li>
+        <% }) %>
+    </ul>
+</div>

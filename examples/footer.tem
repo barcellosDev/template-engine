@@ -1,0 +1,3 @@
+<footer>
+    <strong><%= copyright %></strong>
+</footer>
